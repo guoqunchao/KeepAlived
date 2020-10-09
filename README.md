@@ -1,6 +1,8 @@
 ```shell
 yum install -y curl gcc openssl-devel libnl3-devel net-snmp-devel
 yum install -y keepalived
+systemctl start keepalived
+systemctl enable keepalived
 ```
 
 ```shell
